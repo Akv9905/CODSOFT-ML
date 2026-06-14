@@ -12,15 +12,15 @@ CODSOFT/
 ├── .vscode/
 │   └── settings.json
 ├── ML/
-│   ├── Credit Card fraud/
-│   │   ├── Credit.csv            # Tabular transaction dataset
+│   ├── codsoft_1/
+│   │   ├── Credit.csv            # https://www.kaggle.com/datasets/kartik2112/fraud-detection
 │   │   └── model.ipynb           # Random Forest training & evaluation
-│   ├── Movie/
-│   │   ├── train_data.txt        # Training text dataset (genre-labeled)
-│   │   ├── test_data.txt         # Unlabeled testing text dataset
+│   ├── codsoft_2/
+│   │   ├── train_data.txt        # https://www.kaggle.com/datasets/hijest/genre-classification-dataset-imdb
+│   │   ├── test_data.txt         # https://www.kaggle.com/datasets/hijest/genre-classification-dataset-imdb
 │   │   ├── test_predictions.csv  # Output classification predictions
 │   │   └── model.ipynb           # Text classification modeling (TF-IDF + SVM/NB)
-│   └── SMS Spam Detection/
+│   └── codsoft_3/
 │       ├── spam.csv              # Raw SMS message dataset
 │       ├── model.py              # End-to-end Python modeling script
 │       └── [Output Plots]*       # Generated data analysis & metrics charts
